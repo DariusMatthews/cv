@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact</title>
+  </head>
+  <body>
+    <h3>Conctact Information</h3>
+    <p>Email: DariusCMatthews@gmail.com</p>
+    <p>Phone: (630) 865 - 5940</p>
+    <p>Address: 3613 River Road, Hazel Crest, IL 60429</p>
+    <hr>
+    <!--form tag creates a form for somebody on your website to email you-->
+    <!--Mailto action tells form to email you the input data-->
+    <!--Post Method dumps data into your email after they hit submit-->
+    <!--enctype deciphers how to format the data being sent-->
+    <form action="mailto:dariuscmatthews@gmail.com" method="post" enctype="text/plain">
+      <!--use label tag to make a label for your inputs-->
+      <label>Your Name:</label>
+      <!--use input tag to store the users text,password,color,checkbox,etc. data-->
+      <!--the value in the name attribute identifies the data in each input-->
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <!--creates a text box for user to type in-->
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <!--Submit type attrible generates a submit button-->
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
